@@ -1,0 +1,40 @@
+
+
+<div class="container">
+    <h3>Employee List</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col"><input type="checkbox" (change)="selectAll($event)"></th>
+                <th scope="col">ID</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Date of Joining</th>
+                <th scope="col">Salary</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let employee of employees">
+                <td><input type="checkbox" [checked]="isChecked(employee)" (change)="onSelect(employee, $event)" /></td>
+                <td>{{employee.id}}</td>
+                <td><a routerLink="/details/{{employee.id}}">{{employee.firstName}}</a></td>
+                <td><a routerLink="/details/{{employee.id}}">{{employee.lastName}}</a></td>
+                <td>{{employee.dateOfJoining}} </td>
+                <td>{{employee.salary}}</td>
+                <td><button class="btn btn-dark" (click)="goToUpdate(employee)">Update Record</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="row">
+        <div class="col-md-4">
+            <button type="button" class="btn btn-primary" [routerLink]="['/add-employee']">Add Employee</button>
+            <button type="button" class="btn btn-danger" (click)="deleteEmployees()">Delete Employee</button>
+        </div>
+        <div class="col-md-8">
+            <p *ngIf="selectedCount > 0">{{selectedCount}} selected</p>
+        </div>
+    </div>
+</div>
+
+

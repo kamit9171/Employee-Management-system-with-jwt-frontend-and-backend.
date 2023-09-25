@@ -1,0 +1,29 @@
+
+
+<div class="container">
+    <h3>Update Employee</h3>
+    <div *ngIf="dateOfJoiningError">Date of Joining shouldn't be future date</div>
+    <form #updateForm="ngForm" (ngSubmit)="updateEmployee()" ngNativeValidate>
+        <div class="form-group">
+            <label>First Name:</label>
+            <input type="text" class="form-control" id="firstName" name="firstName" [(ngModel)]="employee.firstName" required/>
+        </div>
+        <div class="form-group">
+            <label>Last Name:</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" [(ngModel)]="employee.lastName" required/>
+        </div>
+        <div class="form-group">
+            <label>Date of Joining:</label>
+            <input type="date" class="form-control" id="dateOfJoining" name="dateOfJoining" [(ngModel)]="employee.dateOfJoining" (ngModelChange)="validateDateOfJoining()" required/>
+        </div>
+        <div class="form-group">
+            <label>Salary:</label>
+            <input type="number" class="form-control" min="1" id="salary" name="salary" [(ngModel)]="employee.salary" required/>
+        </div>
+        <button type="submit" [disabled]="dateOfJoiningError" class="btn btn-primary">Submit</button>
+        <!-- <button type="submit" [disabled]="dateOfJoiningError" class="btn btn-primary">Submit</button> --> 
+        <button type="button" class="btn btn-secondary" (click)="goBack()">Back</button>
+    </form>
+</div>
+
+
