@@ -81,56 +81,56 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 Output Screenshot of the Application
 
-
+1.Frontend File Structure
 ![Frontend File Structure](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/4e6b6d82-5acd-411c-9dd5-dbcdb27e8263)
 
-
+2. Backend File Structure
 ![Backend File Structure](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/4f3373ec-3bb9-4da8-aee7-844edec87a70)
 
-
+3.Backend Service Running on Railway Cloud using Docker
 ![Backend service Running on Railway](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/0d0c9b49-839b-43a0-b5ea-2f7b864068c1)
 
 
-
+4. Integrated MySql on Railway
 ![Integrated MySql on Railway](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/490b675f-3bae-498d-b53d-a29452c34e79)
 
 
-
+5. Frontend Running on netlify
 ![Frontend on Netlify](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/b9213407-72c8-4f94-98ef-493f794226c5)
 
 
-
+6. Backend Service Running of SpringBoot
 ![Backend Service Running of Spring Boot](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/d66018d6-312c-4b77-9b0a-f63287a30d71)
 
-
+7. Default HomePage
 ![Default Home Page](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/f2b3f532-77dc-434f-bd51-196ef39610ba)
 
 
-
+8. Login Interface
 ![Login Interface](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/49054b96-ed82-4608-8a3a-3c93f87a06c0)
 
-
+9.After Login 
 ![After Login](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/2d947e48-752b-4061-b9e2-f60d10f0c474)
 
 
-
+10. Add Employee After Login Successfully
 ![Add Employee After Login](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/f9bcf1b4-54ec-4eca-83f0-0d35a2417480)
 
-
+11. Added Succesfully
 ![Added Successfully](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/6e8110a5-fc90-476d-9a21-d1d0236999ac)
 
-
+12. Without Login Attempt for Update
 ![without login Attempt for Update](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/92560e74-5169-471e-b3db-8fe017546f75)
 
-
+13. Unauthorised Error Occur if You are trying to update Without Login
 ![Unauthorised Error](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/098ccf55-d5ac-4107-a14d-9860c5fab279)
 
 
-
+14. Update Employee After Login
 ![Update Employee After Login](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/8e1feadb-2998-4348-8b43-0a796f2bfd07)
 
 
-
+15. Update Employee Data Successfullt
 ![Update Employee Data Successfully](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/51688626-4799-45e3-a092-3af968a0961d)
 
 
