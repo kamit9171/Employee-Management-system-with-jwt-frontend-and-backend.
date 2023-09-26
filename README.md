@@ -92,7 +92,8 @@ Output Screenshot of the Application
 
 
 4. Integrated MySql on Railway
-![Integrated MySql on Railway](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/490b675f-3bae-498d-b53d-a29452c34e79)
+![Integrated MySql on Railway](https://github.com/kamit9171/Employee-Management-system-with-jwt-frontend-and-backend./assets/55205232/bb2dc5d9-020b-498a-8704-87643558a2d5)
+
 
 
 5. Frontend Running on netlify
