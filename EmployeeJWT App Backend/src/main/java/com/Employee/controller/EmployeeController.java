@@ -25,7 +25,7 @@ import com.Employee.services.EmployeeService;
 
 
 @CrossOrigin(origins = "http://localhost:4200,"
-		+ "https://employee-jwt.netlify.app/")
+		+ "http://employee-jwt.netlify.app/")
 @RestController
 public class EmployeeController {
 
